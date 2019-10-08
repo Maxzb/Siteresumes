@@ -292,4 +292,88 @@ h3 {
 .title_price {
   margin-bottom: 85px;
 }
+
+.title_contacts {
+  margin: 170px 0 85px 50px;
+}
+
+.contacts_common_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts_block {
+  width: 235px;
+  height: 115px;
+}
+
+.contacts_imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts_img {
+  width: 50px;
+  height: 50px;
+}
+
+.whatsapp {
+  background: url("/images/whatsapp.png") no-repeat center center/cover;
+}
+
+.viber {
+  background: url("/images/viber.png") no-repeat center center/cover;
+}
+
+.telegram {
+  background: url("/images/telegram.png") no-repeat center center/cover;
+}
+
+.phone_number_link,
+.skype_link,
+.email_link {
+  font-size: 28px;
+  color: #D8C376;
+}
+
+.phone_number_link:hover,
+.skype_link:hover,
+.email_link:hover {
+  color: #C2AA52;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.phone_number,
+.skype_login,
+.email_address {
+  margin-top: 20px;
+}
+
+.skype {
+  text-align: center;
+}
+
+.skype_img {
+  background: url("/images/skype.png") no-repeat center center/cover;
+  margin: 0 auto;
+}
+
+.email {
+  width: 296px;
+  height: 115px;
+}
+
+.email_img {
+  background: url("/images/mail.png") no-repeat center center/cover;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
