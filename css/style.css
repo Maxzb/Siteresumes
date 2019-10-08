@@ -17,7 +17,7 @@ a {
   color: #ffffff;
 }
 
-h1, h3 {
+h1, h3, .price_text {
   padding: 0;
   margin: 0;
 }
@@ -25,6 +25,11 @@ h1, h3 {
 h2 {
   padding: 0;
   margin: 0 0 0 50px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .container, header, .header_center_block {
@@ -275,5 +280,16 @@ h3 {
           filter: grayscale(0);
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+.price_text {
+  font-size: 28px;
+  font-weight: 300;
+  color: #D8C376;
+  margin-top: 10px;
+}
+
+.title_price {
+  margin-bottom: 85px;
 }
 /*# sourceMappingURL=style.css.map */
