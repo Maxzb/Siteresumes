@@ -5,6 +5,7 @@ html {
 
 body {
   background-color: #0E0D0D;
+  letter-spacing: 2px;
 }
 
 ul {
@@ -14,6 +15,16 @@ ul {
 a {
   text-decoration: none;
   color: #ffffff;
+}
+
+h1, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0 0 0 50px;
 }
 
 .container, header, .header_center_block {
@@ -93,7 +104,18 @@ h1 {
   font-size: 60px;
   font-weight: 100;
   color: #D8C376;
-  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 100;
+  color: #eeeeee;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 300;
+  color: #D8C376;
 }
 
 .offer {
@@ -105,5 +127,62 @@ h1 {
 .profilies_header_img {
   width: 664px;
   height: 491px;
+}
+
+.advantages_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 945px;
+  height: 405px;
+  background-color: #151414;
+  margin-bottom: 120px;
+}
+
+.advantages_block:nth-child(2) {
+  margin-top: 85px;
+}
+
+.advantages_block:nth-child(3) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  float: right;
+}
+
+.advantages_img {
+  width: 655px;
+  height: 405px;
+}
+
+.advantages_info-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.advantages_block_number {
+  font-size: 150px;
+  font-weight: 100;
+  color: #403E3E;
+  margin-top: 35px;
+}
+
+.advantages_text {
+  font-size: 18px;
+  font-weight: 200;
+  color: #D8C376;
+  text-align: center;
+  margin-bottom: 45px;
 }
 /*# sourceMappingURL=style.css.map */
