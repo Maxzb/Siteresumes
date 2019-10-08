@@ -80,7 +80,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   width: 1182px;
-  height: 660px;
+  height: 710px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -91,7 +91,7 @@ nav {
 
 .header_gold_rect {
   position: absolute;
-  top: 245px;
+  top: 270px;
   left: -20px;
   width: 950px;
   height: 310px;
@@ -151,6 +151,10 @@ h3 {
   float: right;
 }
 
+.advantages_block:nth-child(4) {
+  margin-bottom: 173px;
+}
+
 .advantages_img {
   width: 655px;
   height: 405px;
@@ -193,7 +197,7 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 85px;
+  margin: 85px 0 173px 0;
 }
 
 .work_process_block {
@@ -238,5 +242,38 @@ h3 {
   font-size: 24px;
   font-weight: 300;
   color: #D8C376;
+}
+
+.examples_text {
+  width: 1085px;
+  font-size: 24px;
+  font-weight: 200;
+  color: #D8C376;
+  text-indent: 2.1em;
+  margin-top: 85px;
+}
+
+.examples_block_img {
+  text-align: center;
+}
+
+.example_img {
+  width: 320px;
+  height: 454px;
+  margin: 70px 0 170px 0;
+}
+
+.example_img_link {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.example_img_link:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 /*# sourceMappingURL=style.css.map */
