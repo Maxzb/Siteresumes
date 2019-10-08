@@ -13,6 +13,8 @@ ul
 a
    text-decoration: none
    color: $white
+.container, header, .header_center_block
+   position: relative
 .container
    width: 1145px
    background-color: $background_color
@@ -36,3 +38,30 @@ nav
    &:hover
       color: $gold
       transition: .5s
+.header_center_block
+   display: flex
+   width: 1182px
+   height: 660px
+   align-items: center
+   justify-content: space-between
+.header_gold_rect
+   position: absolute
+   top: 245px
+   left: -20px
+   width: 950px
+   height: 310px
+   border-top: 1px solid $gold
+   border-left: 1px solid $gold
+   border-bottom: 1px solid $gold
+h1
+   font-size: 60px
+   font-weight: 100
+   color: $gold
+   letter-spacing: 3px
+.offer
+   width: 360px
+   height: 200px
+   margin-left: 50px
+.profilies_header_img
+   width: 664px
+   height: 491px
