@@ -1,7 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap&subset=cyrillic");
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  background: black;
-  text-decoration: underline;
-  color: black;
-  border: 1px solid green;
+  background-color: #0E0D0D;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  width: 1145px;
+  background-color: #0E0D0D;
+  margin: 0 auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1145px;
+  height: 70px;
+}
+
+.logo {
+  width: 150px;
+  height: 34px;
+}
+
+.menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu_list_item {
+  font-size: 16px;
+  color: #eeeeee;
+  font-weight: 100;
+  margin-left: 48px;
+}
+
+.menu_list_item:hover {
+  color: #D8C376;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=style.css.map */
