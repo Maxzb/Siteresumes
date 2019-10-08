@@ -185,4 +185,58 @@ h3 {
   text-align: center;
   margin-bottom: 45px;
 }
+
+.work_process_common {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 85px;
+}
+
+.work_process_block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid #D8C376;
+}
+
+.work_process_number,
+.work_process_number_4 {
+  position: absolute;
+  top: 3px;
+  left: 63px;
+  font-size: 220px;
+  font-weight: 500;
+  color: #403E3E;
+  opacity: .1;
+}
+
+.work_process_number_4 {
+  left: 50px;
+}
+
+.work_process_text {
+  width: 200px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #D8C376;
+}
 /*# sourceMappingURL=style.css.map */
