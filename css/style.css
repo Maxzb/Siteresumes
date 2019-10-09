@@ -283,7 +283,7 @@ h3 {
 }
 
 .price_text {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
   color: #D8C376;
   margin-top: 10px;
@@ -307,7 +307,7 @@ h3 {
 }
 
 .contacts_block {
-  width: 235px;
+  width: 200px;
   height: 115px;
 }
 
@@ -321,8 +321,8 @@ h3 {
 }
 
 .contacts_img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .whatsapp {
@@ -340,7 +340,8 @@ h3 {
 .phone_number_link,
 .skype_link,
 .email_link {
-  font-size: 28px;
+  font-size: 24px;
+  font-weight: 300;
   color: #D8C376;
 }
 
@@ -359,7 +360,10 @@ h3 {
 }
 
 .skype {
+  width: 165px;
+  height: 115px;
   text-align: center;
+  margin-left: 65px;
 }
 
 .skype_img {
@@ -368,12 +372,42 @@ h3 {
 }
 
 .email {
-  width: 296px;
+  width: 265px;
   height: 115px;
 }
 
 .email_img {
   background: url("/images/mail.png") no-repeat center center/cover;
   margin: 0 auto;
+}
+
+footer {
+  margin: 50px 0 30px 0;
+}
+
+.logo_block {
+  width: 205px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-size: 10px;
+  color: #D8C376;
+  margin-bottom: 4px;
+}
+
+.year {
+  font-size: 14px;
+  font-weight: 400;
+  color: #D8C376;
 }
 /*# sourceMappingURL=style.css.map */
