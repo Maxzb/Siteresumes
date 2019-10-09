@@ -270,6 +270,19 @@ h3 {
   color: #D8C376;
 }
 
+.detail {
+  font-size: 12px;
+  font-weight: 300;
+  color: #A5A5A5;
+  z-index: 1;
+}
+
+.detail:hover {
+  color: #eeeeee;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
 .examples_text {
   width: 1085px;
   font-size: 24px;
@@ -431,5 +444,58 @@ footer {
   font-weight: 400;
   color: #D8C376;
   margin-bottom: 5px;
+}
+
+.overlay-modal {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  width: 410px;
+  height: 325px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 30px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#D8C376), to(#A17F03));
+  background: linear-gradient(to top right, #D8C376, #A17F03);
+  border-radius: 2px;
+}
+
+.modal_text {
+  width: 310px;
+  font-size: 18px;
+  font-weight: 400;
+  text-indent: 1.9em;
+  color: #151414;
+}
+
+.close-modal {
+  position: absolute;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  top: 255px;
+  left: 340px;
+  color: #151414;
+  border: 1px solid #151414;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.close-modal:hover {
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 /*# sourceMappingURL=style.css.map */
