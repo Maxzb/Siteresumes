@@ -134,6 +134,27 @@ h3 {
   height: 491px;
 }
 
+.pinterest {
+  position: absolute;
+  top: 520px;
+  left: 927px;
+}
+
+.pinterest,
+.pinterest_link {
+  font-size: 11px;
+  font-weight: 100;
+  color: #686868;
+  letter-spacing: 1px;
+}
+
+.pinterest_link:hover {
+  color: #E60023;
+  font-weight: 200;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
 .advantages_block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -402,12 +423,13 @@ footer {
 .copyright {
   font-size: 10px;
   color: #D8C376;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 
 .year {
   font-size: 14px;
   font-weight: 400;
   color: #D8C376;
+  margin-bottom: 4px;
 }
 /*# sourceMappingURL=style.css.map */

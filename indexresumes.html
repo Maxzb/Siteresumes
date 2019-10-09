@@ -12,15 +12,16 @@
 </head>
 <body>
    <div class="container">
-      <header>
-         <nav>
+      <header id="header">
+         <nav class="nav">
             <img src="/images/logo_pop.png" alt="Логотип Pulse of People" class="logo">
-            <div class="menu">
-               <ul class="menu_list">
-                  <li><a href="#benefits"  class="menu_list_item">Преимущества</a></li>
-                  <li><a href="#work_process"  class="menu_list_item">Ход работы</a></li>
-                  <li><a href="#examples"  class="menu_list_item">Примеры</a></li>
-                  <li><a href="#contacts"  class="menu_list_item">Связь</a></li>
+            <div class="menu nav">
+               <ul class="menu_list nav">
+                  <li><a href="#benefits" class="menu_list_item" onclick="slowScroll('#benefits')">Преимущества</a></li>
+                  <li><a href="#work_process" class="menu_list_item" onclick="slowScroll('#work_process')">Ход работы</a></li>
+                  <li><a href="#examples" class="menu_list_item" onclick="slowScroll('#examples')">Примеры</a></li>
+                  <li><a href="#price" class="menu_list_item" onclick="slowScroll('#price')">Цены</a></li>
+                  <li><a href="#contacts" class="menu_list_item" onclick="slowScroll('#contacts')">Связь</a></li>
                </ul>
             </div>
          </nav>
@@ -30,11 +31,12 @@
          <div class="header_center_block">
             <h1 class="offer">Резюме говорящее за Вас</h1>
             <img src="/images/Profiles_header.png" alt="Анкеты" class="profilies_header_img">
+            <p class="pinterest">примеры взяты с сайта <a href="https://www.pinterest.ru" target='_blank'class="pinterest_link">Pinterest</a></p>
          </div>
       </header>
 
       <main>
-         <div class="advantages">
+         <div class="advantages" id="benefits">
             <h2>Преимущества</h2>
             <div class="advantages_block">
                <img src="/images/adv_img_1.png" alt="Оригинальность" class="advantages_img">
@@ -62,7 +64,7 @@
             </div>
          </div>
 
-         <div class="work_process">
+         <div class="work_process" id="work_process">
             <h2>Ход работы</h2>
             <div class="work_process_common">
                <div class="work_process_block">
@@ -84,7 +86,7 @@
             </div>
          </div>
 
-         <div class="examples">
+         <div class="examples" id="examples">
             <h2>Примеры</h2>
             <p class="examples_text">По желанию, ваше резюме может быть сверстано в html-документ и размещено в сети, с удобной взаимосвязью пользователя и вашей страницы, как у любого современного сайта.
             С примером, Вы можете ознакомиться кликнув по картинке ниже.</p>
@@ -94,13 +96,13 @@
             </div>
          </div>
 
-         <div class="price">
+         <div class="price" id="price">
             <h2 class="title_price">Цены</h2>
             <p class="price_text">Цена одной анкеты <span>1500</span> рублей.</p>
             <p class="price_text">Цена за анкету, верстку и размещение в сети <span>5000</span> рублей.</p>
          </div>
 
-         <div class="contacts">
+         <div class="contacts" id="contacts">
             <h2 class="title_contacts">Связь</h2>
             <div class="contacts_common_block">
                <div class="contacts_block">
@@ -127,11 +129,14 @@
 
       <footer>
          <div class="logo_block">
-            <img src="/images/logo_pop.png" alt="Логотип Pulse of People" class="logo footer_logo">
+            <a href="#header" onclick="slowScroll('#header')"><img src="/images/logo_pop.png" alt="Логотип Pulse of People" class="logo footer_logo"></a>
             <span class="copyright">&copy;</span>
             <div class="year">2019</div>
          </div>
       </footer>
    </div>
+
+   <script src="script/jquery-3.4.1.min.js"></script>
+   <script src="script/script.js"></script>
 </body>
 </html>
