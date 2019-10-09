@@ -347,15 +347,15 @@ h3 {
 }
 
 .whatsapp {
-  background: url("/images/whatsapp.png") no-repeat center center/cover;
+  background: url("../images/whatsapp.png") no-repeat center center/cover;
 }
 
 .viber {
-  background: url("/images/viber.png") no-repeat center center/cover;
+  background: url("../images/viber.png") no-repeat center center/cover;
 }
 
 .telegram {
-  background: url("/images/telegram.png") no-repeat center center/cover;
+  background: url("../images/telegram.png") no-repeat center center/cover;
 }
 
 .phone_number_link,
@@ -388,7 +388,7 @@ h3 {
 }
 
 .skype_img {
-  background: url("/images/skype.png") no-repeat center center/cover;
+  background: url("../images/skype.png") no-repeat center center/cover;
   margin: 0 auto;
 }
 
@@ -398,7 +398,7 @@ h3 {
 }
 
 .email_img {
-  background: url("/images/mail.png") no-repeat center center/cover;
+  background: url("../images/mail.png") no-repeat center center/cover;
   margin: 0 auto;
 }
 
@@ -430,6 +430,6 @@ footer {
   font-size: 14px;
   font-weight: 400;
   color: #D8C376;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */
