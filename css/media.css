@@ -302,6 +302,7 @@
   }
   .header_gold_rect {
     width: 398px;
+    height: 300px;
     top: 290px;
     left: 5px;
   }
@@ -586,6 +587,9 @@
   .contacts_common_block {
     width: 345px;
     margin-left: 10px;
+  }
+  .email {
+    width: 190px;
   }
   .modal {
     width: 310px;
