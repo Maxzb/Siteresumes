@@ -270,6 +270,10 @@
   .email_address {
     margin-top: 12px;
   }
+  .modal {
+    width: 400px;
+    height: 315px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -512,6 +516,16 @@
   .container-present__prof_mini {
     color: #fff;
   }
+  .modal {
+    width: 350px;
+    height: 315px;
+  }
+  .close-modal {
+    left: 287px;
+  }
+  .modal_text {
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -573,6 +587,18 @@
     width: 345px;
     margin-left: 10px;
   }
+  .modal {
+    width: 310px;
+    height: 315px;
+  }
+  .close-modal {
+    left: 250px;
+    top: 260px;
+  }
+  .modal_text {
+    font-size: 17px;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -611,6 +637,14 @@
   }
   .work_process_common {
     width: 360px;
+  }
+  .modal {
+    width: 290px;
+    height: 315px;
+  }
+  .close-modal {
+    left: 230px;
+    top: 260px;
   }
 }
 
@@ -688,6 +722,22 @@
   }
   .container-menu-mini__link {
     font-size: 24px;
+  }
+  .email {
+    width: 190px;
+  }
+  .modal {
+    width: 255px;
+    height: 315px;
+  }
+  .close-modal {
+    left: 200px;
+    top: 260px;
+  }
+  .modal_text {
+    width: 255px;
+    font-size: 15px;
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=media.css.map */
