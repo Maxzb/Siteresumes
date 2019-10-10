@@ -417,6 +417,7 @@ h3 {
 
 footer {
   margin: 50px 0 30px 0;
+  opacity: .3;
 }
 
 .logo_block {
@@ -435,14 +436,14 @@ footer {
 
 .copyright {
   font-size: 10px;
-  color: #D8C376;
+  color: #A5A5A5;
   margin-bottom: 10px;
 }
 
 .year {
   font-size: 14px;
   font-weight: 400;
-  color: #D8C376;
+  color: #A5A5A5;
   margin-bottom: 5px;
 }
 
