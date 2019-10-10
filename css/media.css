@@ -150,6 +150,128 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  h3 {
+    font-size: 18px;
+  }
+  .container {
+    width: 640px;
+  }
+  main {
+    width: 640px;
+  }
+  .nav {
+    width: 640px;
+    margin-right: 10px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .menu_list_item {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .header_gold_rect {
+    width: 610px;
+    height: 410px;
+    border-right: 1px solid #D8C376;
+    top: 285px;
+  }
+  .header_center_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 640px;
+    height: 675px;
+  }
+  .offer {
+    width: 300px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .header_gold_rect {
+    width: 618px;
+    left: 10px;
+  }
+  .profilies_header_img {
+    width: 620px;
+    height: 458px;
+    margin-left: 18px;
+  }
+  .pinterest {
+    font-size: 10px;
+    left: 427px;
+    top: 593px;
+  }
+  .pinterest_link {
+    color: #E60023;
+    left: 418px;
+    top: 593px;
+  }
+  .advantages_title {
+    margin-top: 120px;
+  }
+  .advantages_block {
+    width: 640px;
+    height: 290px;
+  }
+  .advantages_img {
+    width: 470px;
+    height: 290px;
+  }
+  .advantages_block_number {
+    font-size: 110px;
+  }
+  .advantages_text {
+    font-size: 15px;
+  }
+  .advantages_block:nth-child(4) {
+    margin-bottom: 120px;
+  }
+  .work_process_common {
+    width: 560px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 80px auto 120px;
+  }
+  .work_process_text {
+    font-size: 22px;
+  }
+  .work_process_block:nth-child(3) {
+    margin-top: 50px;
+  }
+  .work_process_block:nth-child(4) {
+    margin-top: 50px;
+  }
+  .examples_text,
+  .price_text,
+  .contacts_common_block {
+    width: 620px;
+    margin-left: 10px;
+    font-size: 22px;
+  }
+  .contacts_block {
+    width: 145px;
+  }
+  .skype {
+    margin-left: 65px;
+  }
+  .email {
+    width: 190px;
+  }
+  .phone_number_link,
+  .skype_link,
+  .email_link {
+    font-size: 18px;
+  }
+  .phone_number,
+  .skype_login,
+  .email_address {
+    margin-top: 12px;
+  }
+}
+
 @media screen and (max-width: 414px) {
   h2 {
     margin-left: 25px;
