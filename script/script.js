@@ -47,3 +47,19 @@ $(document).mouseup(function(e) {
 		$('body').css('overflow', 'auto');
 	}
 });
+
+//МИНИ-МЕНЮ
+$(function(){
+	$('.menu-btn').on('click', function(){
+		$('.container-menu-mini').slideToggle();
+		$('.menu-btn').toggleClass('menu-btn-active');
+		$('html, body').toggleClass('scroll');
+	});
+});
+
+$(function(){
+	$('.container-menu-mini__link').on('click', function(){
+		$('html, body').removeClass('scroll');
+		$('.container-menu-mini').slideToggle();
+});
+});

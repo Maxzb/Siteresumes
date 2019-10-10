@@ -303,6 +303,93 @@
   .email_address {
     margin-top: 10px;
   }
+  .mini-menu {
+    display: block;
+  }
+  .menu-btn {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border-radius: 50%;
+  }
+  .menu-btn span,
+  .menu-btn span::before,
+  .menu-btn span::after {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 2px;
+    background-color: #D8C376;
+  }
+  .menu-btn span::before,
+  .menu-btn span::after {
+    content: '';
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .menu-btn span::before {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  .menu-btn span::after {
+    -webkit-transform: translateY(13px);
+            transform: translateY(13px);
+  }
+  .menu-btn-active span::before {
+    -webkit-transform: rotate(42deg);
+            transform: rotate(42deg);
+  }
+  .menu-btn-active span::after {
+    -webkit-transform: rotate(-42deg);
+            transform: rotate(-42deg);
+  }
+  .menu-btn-active span {
+    height: 0;
+  }
+  .container-menu-mini {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 300vh;
+    background-color: #0E0D0D;
+    z-index: 5;
+  }
+  .container-menu-mini__item {
+    display: block;
+    width: 180px;
+    margin: 35px 0;
+  }
+  .container-menu-mini__link {
+    color: #D8C376;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .scroll {
+    overflow: hidden;
+  }
+  .top {
+    top: 445px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .display {
+    display: none;
+  }
+  .container-present__forename_mini {
+    color: #fff;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .container-present__prof_mini {
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -395,7 +482,10 @@
     width: 360px;
   }
   .advantages_block_number {
-    left: 298px;
+    left: 285px;
+  }
+  .advantages_second_block {
+    left: 15px;
   }
   .work_process_common {
     width: 360px;
@@ -473,6 +563,9 @@
   }
   .price_text {
     text-align: center;
+  }
+  .container-menu-mini__link {
+    font-size: 24px;
   }
 }
 /*# sourceMappingURL=media.css.map */
