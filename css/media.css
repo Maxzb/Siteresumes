@@ -365,4 +365,65 @@
     margin-left: 10px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 360px;
+  }
+  main {
+    width: 360px;
+  }
+  .nav {
+    width: 360px;
+    margin-right: 5px;
+  }
+  .logo {
+    margin-left: 5px;
+  }
+  .menu {
+    margin-right: 5px;
+  }
+  .header_center_block {
+    width: 360px;
+    height: 499px;
+  }
+  .header_gold_rect {
+    left: 5px;
+    width: 349px;
+    height: 285px;
+  }
+  .profilies_header_img {
+    width: 350px;
+    height: 260px;
+    margin-left: 8px;
+  }
+  .pinterest {
+    left: 200px;
+    top: 470px;
+  }
+  .advantages_block {
+    width: 360px;
+    height: 375px;
+  }
+  .advantages_img {
+    width: 360px;
+    height: 230px;
+  }
+  .advantages_block_number {
+    left: 298px;
+    top: 150px;
+  }
+  .advantages_second_block {
+    left: 25px;
+  }
+  .work_process_common {
+    width: 360px;
+  }
+  .examples_text,
+  .price_text,
+  .contacts_common_block {
+    width: 345px;
+    margin-left: 10px;
+  }
+}
 /*# sourceMappingURL=media.css.map */
