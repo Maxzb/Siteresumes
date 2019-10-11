@@ -195,6 +195,10 @@ h3 {
   height: 405px;
 }
 
+.advantages_img_1 {
+  background: url("../images/img_1.png") no-repeat center center/cover;
+}
+
 .advantages_info-column {
   display: -webkit-box;
   display: -ms-flexbox;
