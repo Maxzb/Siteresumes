@@ -61,5 +61,6 @@ $(function(){
 	$('.container-menu-mini__link').on('click', function(){
 		$('html, body').removeClass('scroll');
 		$('.container-menu-mini').slideToggle();
-});
+		$('.menu-btn').toggleClass('menu-btn-active');
+	});
 });
