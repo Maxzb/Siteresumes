@@ -9,6 +9,7 @@ $dark_grey: #151414
 html
    font-family: 'Roboto', sans-serif
 body
+   position: relative
    background-color: $background_color
    letter-spacing: 2px
 nav
@@ -249,13 +250,13 @@ h3
    width: 165px
    height: 115px
    text-align: center
-   margin-left: 65px
+   margin-left: 85px
 .skype_img
    background: url('../images/skype.png') no-repeat center center / cover
    margin: 0 auto
 
 .email
-   width: 245px
+   width: 270px
    height: 115px
 .email_img
    background: url('../images/mail.png') no-repeat center center / cover
@@ -322,3 +323,25 @@ footer
       color: $grey
       border: 1px solid $grey
       transition: .3s
+.arrow-top
+   position: fixed
+   right: -100px
+   bottom: 20px
+   display: block
+   width: 60px
+   height: 60px
+   color: #fff
+   text-align: center
+   line-height: 60px
+   background-color: rgba($grey, .15)
+   border-radius: 50px
+   font-size: 22px
+   cursor: pointer
+   opacity: .3
+   transition: .2s
+   &:hover
+      opacity: .9
+.active
+   right: 20px
+
+   

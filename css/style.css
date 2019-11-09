@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  position: relative;
   background-color: #0E0D0D;
   letter-spacing: 2px;
 }
@@ -193,10 +194,6 @@ h3 {
 .advantages_img {
   width: 655px;
   height: 405px;
-}
-
-.advantages_img_1 {
-  background: url("../images/img_1.png") no-repeat center center/cover;
 }
 
 .advantages_info-column {
@@ -410,7 +407,7 @@ h3 {
   width: 165px;
   height: 115px;
   text-align: center;
-  margin-left: 65px;
+  margin-left: 85px;
 }
 
 .skype_img {
@@ -419,7 +416,7 @@ h3 {
 }
 
 .email {
-  width: 245px;
+  width: 270px;
   height: 115px;
 }
 
@@ -510,5 +507,32 @@ footer {
   border: 1px solid #eeeeee;
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+.arrow-top {
+  position: fixed;
+  right: -100px;
+  bottom: 20px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  background-color: rgba(238, 238, 238, 0.15);
+  border-radius: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: .3;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.arrow-top:hover {
+  opacity: .9;
+}
+
+.active {
+  right: 20px;
 }
 /*# sourceMappingURL=style.css.map */

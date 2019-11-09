@@ -141,12 +141,15 @@
     margin-left: 65px;
   }
   .email {
-    width: 210px;
+    width: 224px;
   }
   .phone_number_link,
   .skype_link,
   .email_link {
     font-size: 20px;
+  }
+  .arrow-top {
+    display: none;
   }
 }
 
@@ -258,7 +261,7 @@
     margin-left: 65px;
   }
   .email {
-    width: 190px;
+    width: 224px;
   }
   .phone_number_link,
   .skype_link,
@@ -422,7 +425,7 @@
     margin-top: 30px;
   }
   .email {
-    width: 207px;
+    width: 224px;
     margin: 30px 0 50px;
   }
   .phone_number,
@@ -589,7 +592,7 @@
     margin-left: 10px;
   }
   .email {
-    width: 190px;
+    width: 224px;
   }
   .modal {
     width: 310px;
@@ -728,7 +731,7 @@
     font-size: 24px;
   }
   .email {
-    width: 190px;
+    width: 224px;
   }
   .modal {
     width: 255px;

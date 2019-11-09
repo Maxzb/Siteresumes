@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /images/
+Disallow: /myresume/
+
+Host: pulseofpeople.com
+Sitemap: https://pulseofpeople.com/sitemap.xml
